@@ -394,11 +394,11 @@ Header Area Style
 }
 
 .header-area .top-header-area .header-content-left li:hover a {
-    color: #2D2046;
+    color: #fff;
 }
 
 .header-area .top-header-area .header-content-left li:hover a i {
-    color: #2D2046;
+    color: #fff;
 }
 
 .header-area .top-header-area .header-content-right {
