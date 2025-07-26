@@ -1,0 +1,984 @@
+/*================================================
+Default CSS
+=================================================*/
+
+.switch-box {
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    top: 150px;
+    transform: translateY(-50%);
+    background-color: #67696b;
+    height: 40px;
+    width: 50px;
+    padding-top: 5px;
+    padding-left: 10px;
+    border-radius: 30px 0 0 30px;
+}
+
+.switch-box .switch {
+    position: relative;
+    display: inline-block;
+    width: 35px;
+    height: 30px;
+}
+
+.switch-box .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.switch-box .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #4d4949;
+    transition: 0.4s;
+}
+
+.switch-box .slider:before {
+    position: absolute;
+    content: "";
+    height: 30px;
+    width: 30px;
+    left: 2.5px;
+    bottom: 4px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    transition: 0.4s;
+    box-shadow: 0 0px 15px rgba(32, 32, 32, 0.2392156863);
+    background: url(../../assets/img/night.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.switch-box input:checked+.slider {
+    background-color: #cbc1c1;
+}
+
+.switch-box input:focus+.slider {
+    background-color: #4d4949;
+}
+
+.switch-box input:checked+.slider:before {
+    transform: translateX(0);
+    background: url(../img/sunny.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.switch-box .slider.round {
+    border-radius: 50px;
+}
+
+.switch-box .slider.round:before {
+    border-radius: 50%;
+}
+
+.theme-dark {
+    /* Start "Network Security Demo" & "Cloud Security" Dark CSS
+  ==============================================================*/
+    /* End "Network Security Demo" & "Cloud Security" Dark CSS
+  ==============================================================*/
+    /* Start "Government Cyber Defense", "Cyber Training And Awareness" & "AI Powered Security" Demo Style CSS
+  ==============================================================*/
+    /* End "Government Cyber Defense", "Cyber Training And Awareness" & "AI Powered Security" Demo Style CSS
+  ==============================================================*/
+}
+
+.theme-dark body {
+    background-color: #000000;
+    color: #f1f1f1;
+}
+
+.theme-dark p {
+    color: #f1f1f1;
+}
+
+.theme-dark p a {
+    color: #f1f1f1 !important;
+}
+
+.theme-dark a {
+    color: #ffffff;
+}
+
+.theme-dark .h1,
+.theme-dark .h2,
+.theme-dark .h3,
+.theme-dark .h4,
+.theme-dark .h5,
+.theme-dark .h6,
+.theme-dark h1,
+.theme-dark h2,
+.theme-dark h3,
+.theme-dark h4,
+.theme-dark h5,
+.theme-dark h6 {
+    color: #ffffff !important;
+}
+
+.theme-dark .h1 a,
+.theme-dark .h2 a,
+.theme-dark .h3 a,
+.theme-dark .h4 a,
+.theme-dark .h5 a,
+.theme-dark .h6 a,
+.theme-dark h1 a,
+.theme-dark h2 a,
+.theme-dark h3 a,
+.theme-dark h4 a,
+.theme-dark h5 a,
+.theme-dark h6 a {
+    color: #ffffff !important;
+}
+
+.theme-dark .bg-color-f9f9f9 {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .nav-area-six .navbar-area .main-nav nav .navbar-nav .nav-item a {
+    color: #ffffff;
+}
+
+.theme-dark .nav-area-six .navbar-area.is-sticky {
+    background-color: #222121;
+}
+
+.theme-dark .nav-area-six .navbar-brand {
+    filter: invert(1);
+}
+
+.theme-dark .nav-area-six .others-option .option-item .search-btn {
+    color: #ffffff;
+}
+
+.theme-dark .nav-area-six .others-option .cart-icon .cart i {
+    color: #ffffff;
+}
+
+.theme-dark .seku-new-nav-area .navbar-brand {
+    filter: invert(1);
+}
+
+.theme-dark .seku-new-nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a {
+    color: #ffffff;
+}
+
+.theme-dark .seku-new-nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a.active {
+    color: #d80650;
+}
+
+.theme-dark .seku-new-nav-area .navbar-area.is-sticky {
+    background-color: #222121;
+}
+
+.theme-dark .seku-new-nav-area .others-option .option-item .search-btn {
+    color: #ffffff;
+}
+
+.theme-dark .seku-new-nav-area.nav-with-black-color .navbar-brand {
+    filter: invert(0);
+}
+
+.theme-dark .hero-slider-area .slider-item::before {
+    background-color: rgba(24, 24, 24, 0.9);
+}
+
+.theme-dark .hero-slider-area .slider-item::after {
+    background-color: rgba(24, 24, 24, 0.9);
+}
+
+.theme-dark .new-main-banner-slides-item {
+    background: linear-gradient(136.1deg, #101010 1.84%, #292828 100%);
+}
+
+.theme-dark .single-security {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .complete-website-security-card.with-white-color {
+    background: #0e0e0e;
+    border: 1px solid #434242;
+}
+
+.theme-dark .complete-website-security-card.with-white-color p {
+    color: #ffffff;
+}
+
+.theme-dark .approach-content ul li {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .single-client {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .single-client .quotes {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .single-client::before {
+    border-top: 45px solid #0e0e0e;
+}
+
+.theme-dark .testimonials .quote {
+    color: #2d2c2c;
+}
+
+.theme-dark .cybersecurity-content ul li {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .manual-content ul li {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .single-counter {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .single-pricing {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .single-pricing .pricing-content {
+    background-color: #2e2d2d;
+}
+
+.theme-dark .single-pricing ul li {
+    border-bottom: 1px solid #494848;
+}
+
+.theme-dark .transform-content {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .performance-area .single-security:hover h3 {
+    color: #000000 !important;
+}
+
+.theme-dark .performance-area .single-security:hover .read-more {
+    color: #d80650;
+}
+
+.theme-dark .single-team .content {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .expert-team-area {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .faq-accordion .accordion .accordion-item {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .faq-accordion .accordion .accordion-title {
+    color: #ffffff;
+}
+
+.theme-dark .partner-area .owl-carousel .owl-item img {
+    filter: invert(1);
+}
+
+.theme-dark .partner-slides .partner-item-card img {
+    filter: invert(1);
+}
+
+.theme-dark .services-slider-content .thumbs-wrap ul li {
+    border-bottom: 2px solid #525252;
+    color: #ffffff;
+}
+
+.theme-dark .services-slider-content .thumbs-wrap ul li.active {
+    color: #d80650;
+    border-color: #d80650;
+}
+
+.theme-dark .services-slider-content .owl-theme .owl-nav .owl-prev i,
+.theme-dark .services-slider-content .owl-theme .owl-nav .owl-next i {
+    color: #ffffff;
+}
+
+.theme-dark .services-details .choose-wrap {
+    background-color: #0e0e0e !important;
+}
+
+.theme-dark .services-details .choose-wrap p {
+    color: #ffffff;
+}
+
+.theme-dark .services-details .choose-wrap ul li {
+    color: #ffffff;
+}
+
+.theme-dark .video-area-six::before {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .single-footer-widget .import-link li a {
+    color: #ffffff;
+}
+
+.theme-dark .single-footer-widget .logo img {
+    filter: invert(1);
+}
+
+.theme-dark .single-footer-widget .address li a {
+    color: #ffffff;
+}
+
+.theme-dark .single-seku-features-card {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .safer-world-area {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .funfacts-style-two-area {
+    background: linear-gradient(136.1deg, #0c0c0c 1.84%, #2b2a2b 100%);
+}
+
+.theme-dark .home-control-content .home-control-tab-wrap .tab_content .tabs_item p {
+    color: #ffffff;
+}
+
+.theme-dark .home-control-content .home-control-tab-wrap .tab_content .tabs_item .list li {
+    color: #ffffff;
+}
+
+.theme-dark .plans-area {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .single-plans-card .features-list ul li {
+    color: #ffffff;
+}
+
+.theme-dark .operation-center-content .operation-list li span {
+    color: #ffffff;
+    border: 1px solid #66686a;
+}
+
+.theme-dark .latest-news-card .news-content p {
+    color: #ffffff;
+}
+
+.theme-dark .latest-news-area .section-title p {
+    color: #ffffff;
+}
+
+.theme-dark .faq-contact-area #contactForm {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .faq-contact-area #contactForm .form-group .form-control {
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #464545;
+}
+
+.theme-dark .faq-contact-area #contactForm .form-group .form-control::-moz-placeholder {
+    color: #ffffff;
+}
+
+.theme-dark .faq-contact-area #contactForm .form-group .form-control::placeholder {
+    color: #ffffff;
+}
+
+.theme-dark .single-contact-info {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .user-area-all-style .contact-form-action {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .user-area-all-style .contact-form-action form .form-group .form-control {
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #504f4f;
+}
+
+.theme-dark .user-area-all-style .contact-form-action form .form-group .form-control::-moz-placeholder {
+    color: #ffffff;
+}
+
+.theme-dark .user-area-all-style .contact-form-action form .form-group .form-control::placeholder {
+    color: #ffffff;
+}
+
+.theme-dark .coming-soon-area .coming-soon-content {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .coming-soon-area .coming-soon-content #timer div {
+    color: #ffffff;
+}
+
+.theme-dark .coming-soon-area .coming-soon-content .newsletter-form .input-newsletter {
+    background-color: rgba(108, 106, 106, 0.3);
+    color: #ffffff;
+}
+
+.theme-dark .coming-soon-area .coming-soon-content .newsletter-form .input-newsletter::-moz-placeholder {
+    color: #ffffff;
+}
+
+.theme-dark .coming-soon-area .coming-soon-content .newsletter-form .input-newsletter::placeholder {
+    color: #ffffff;
+}
+
+.theme-dark .error-area {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .error-area .error-content-wrap p {
+    color: #ffffff;
+}
+
+.theme-dark .blog-details-area blockquote {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .blog-details-area blockquote p {
+    color: #ffffff;
+}
+
+.theme-dark .blog-details-area .post-navigation .navigation-links div a {
+    color: #ffffff;
+}
+
+.theme-dark .blog-details-area .post-navigation .navigation-links div a:hover {
+    color: #d80650;
+}
+
+.theme-dark .blog-details-area .comments-area .comment-author .fn {
+    color: #ffffff;
+}
+
+.theme-dark .blog-details-area .comments-area .comment-body .reply a {
+    border: 1px solid #7f7d7d;
+    color: #ffffff;
+}
+
+.theme-dark .blog-details-area .comments-area .comment-respond label {
+    color: #ffffff;
+}
+
+.theme-dark .blog-details-area .comments-area .comment-respond input {
+    background-color: #0e0e0e;
+    border: 1px solid #6d6c6c;
+    color: #ffffff;
+}
+
+.theme-dark .blog-details-area .comments-area .comment-respond input::-moz-placeholder {
+    color: #ffffff;
+}
+
+.theme-dark .blog-details-area .comments-area .comment-respond input::placeholder {
+    color: #ffffff;
+}
+
+.theme-dark .blog-details-area .comments-area .comment-respond textarea {
+    background-color: #0e0e0e;
+    border: 1px solid #6d6c6c;
+    color: #ffffff;
+}
+
+.theme-dark .blog-details-area .comments-area .comment-respond textarea::-moz-placeholder {
+    color: #ffffff;
+}
+
+.theme-dark .blog-details-area .comments-area .comment-respond textarea::placeholder {
+    color: #ffffff;
+}
+
+.theme-dark .widget-area .widget_search form .search-field {
+    border: 1px solid #4d4c4c;
+    color: #ffffff;
+}
+
+.theme-dark .widget-area .widget_search form .search-field::-moz-placeholder {
+    color: #ffffff;
+}
+
+.theme-dark .widget-area .widget_search form .search-field::placeholder {
+    color: #ffffff;
+}
+
+.theme-dark .widget-area .widget_categories ul li a {
+    color: #ffffff;
+}
+
+.theme-dark .widget-area .widget_categories ul li a:hover {
+    color: #d80650;
+}
+
+.theme-dark .widget-area .tagcloud a {
+    color: #ffffff;
+    border: 1px dashed #4d4c4c;
+}
+
+.theme-dark .widget-area .widget_meta ul li a {
+    color: #ffffff;
+}
+
+.theme-dark .widget-area .widget_meta ul li a:hover {
+    color: #d80650;
+}
+
+.theme-dark .product-area .single-product-box {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .product-area .single-product-box .product-content .price {
+    color: #ffffff;
+}
+
+.theme-dark .cart-area .cart-wraps {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .cart-area .cart-table table thead tr {
+    border-color: #474646;
+}
+
+.theme-dark .cart-area .cart-table table thead tr th {
+    color: #ffffff;
+}
+
+.theme-dark .cart-area .cart-table table tbody tr {
+    border-color: #474646;
+}
+
+.theme-dark .cart-area .cart-table table tbody tr td {
+    color: #ffffff;
+}
+
+.theme-dark .cart-area .cart-table table tbody tr td.product-name a {
+    color: #ffffff;
+}
+
+.theme-dark .cart-area .cart-table table tbody tr td.product-subtotal .remove {
+    color: #ffffff;
+}
+
+.theme-dark .cart-area .coupon-wrap {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .cart-area .coupon-wrap .form-group .form-control {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.theme-dark .cart-area .coupon-wrap .form-group .form-control::-moz-placeholder {
+    color: #ffffff;
+}
+
+.theme-dark .cart-area .coupon-wrap .form-group .form-control::placeholder {
+    color: #ffffff;
+}
+
+.theme-dark .cart-area .coupon-wrap .nice-select {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.theme-dark .cart-area .cart-totals {
+    background: #0e0e0e;
+}
+
+.theme-dark .cart-area .cart-totals ul li {
+    color: #ffffff;
+}
+
+.theme-dark .cart-area .cart-totals ul li span {
+    color: #ffffff;
+}
+
+.theme-dark .checkout-area .user-actions {
+    background: #0e0e0e;
+    border-top: 3px solid #d80650;
+}
+
+.theme-dark .checkout-area .user-actions span {
+    color: #ffffff;
+}
+
+.theme-dark .checkout-area .billing-details {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .checkout-area .billing-details .form-group label {
+    color: #ffffff;
+}
+
+.theme-dark .checkout-area .billing-details .form-group .form-control {
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #464646;
+}
+
+.theme-dark .checkout-area .billing-details .form-group .form-control::-moz-placeholder {
+    color: #ffffff;
+}
+
+.theme-dark .checkout-area .billing-details .form-group .form-control::placeholder {
+    color: #ffffff;
+}
+
+.theme-dark .checkout-area .billing-details .form-check .form-check-label {
+    color: #ffffff;
+}
+
+.theme-dark .checkout-area .order-details .order-table {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .checkout-area .order-details .order-table table thead tr {
+    border-color: #333333;
+}
+
+.theme-dark .checkout-area .order-details .order-table table thead tr th {
+    border-color: #333333;
+    color: #ffffff;
+}
+
+.theme-dark .checkout-area .order-details .order-table table tbody tr {
+    border-color: #333333;
+}
+
+.theme-dark .checkout-area .order-details .order-table table tbody tr td {
+    border-color: #333333;
+    color: #ffffff;
+}
+
+.theme-dark .checkout-area .order-details .order-table table tbody tr td.product-name a {
+    color: #ffffff;
+}
+
+.theme-dark .checkout-area .order-details .order-table table tbody tr td.order-subtotal span {
+    color: #ffffff;
+}
+
+.theme-dark .checkout-area .order-details .order-table table tbody tr td.order-shipping span {
+    color: #ffffff;
+}
+
+.theme-dark .checkout-area .order-details .order-table table tbody tr td.total-price span {
+    color: #ffffff;
+}
+
+.theme-dark .checkout-area .order-details .payment-box {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .checkout-area .order-details .payment-box .payment-method p [type=radio]:not(:checked)+label {
+    color: #ffffff;
+}
+
+.theme-dark .product-details-area .product-details-desc .price {
+    color: #ffffff;
+}
+
+.theme-dark .product-details-area .product-details-desc .product-review .rating-count {
+    color: #ffffff;
+}
+
+.theme-dark .product-details-area .product-details-desc .buy-checkbox-btn .cbx span:last-child {
+    color: #ffffff;
+}
+
+.theme-dark .product-details-area .product-details-desc .custom-payment-options span {
+    color: #ffffff;
+}
+
+.theme-dark .product-details-area .products-details-tab .tabs li a {
+    color: #ffffff;
+}
+
+.theme-dark .product-details-area .products-details-tab .tab_content .tabs_item .products-details-tab-content .additional-information li {
+    color: #ffffff;
+}
+
+.theme-dark .product-details-area .products-details-tab .tab_content .tabs_item .products-details-tab-content .additional-information li span {
+    color: #ffffff;
+}
+
+.theme-dark .product-details-area .products-details-tab .tab_content .tabs_item .products-details-tab-content .product-review-form .review-form form .form-group label {
+    color: #ffffff;
+}
+
+.theme-dark .product-details-area .products-details-tab .tab_content .tabs_item .products-details-tab-content .product-review-form .review-form form .form-group .form-control {
+    background-color: #0e0e0e;
+    color: #ffffff;
+}
+
+.theme-dark .product-details-area .products-details-tab .tab_content .tabs_item .products-details-tab-content .product-review-form .review-form form .form-group .form-control::-moz-placeholder {
+    color: #ffffff;
+}
+
+.theme-dark .product-details-area .products-details-tab .tab_content .tabs_item .products-details-tab-content .product-review-form .review-form form .form-group .form-control::placeholder {
+    color: #ffffff;
+}
+
+.theme-dark .header-area-six .top-header-area {
+    background-color: #0e0129;
+}
+
+.theme-dark .header-area-six .top-header-area .header-content-left li a {
+    color: #ffffff;
+}
+
+.theme-dark .header-area-six .top-header-area .header-content-left li a:hover {
+    color: #d80650;
+}
+
+.theme-dark .header-area-six .top-header-area .header-content-right .log-in-sign-up li a {
+    color: #ffffff;
+}
+
+.theme-dark .header-area-six .top-header-area .header-content-right .log-in-sign-up li a:hover {
+    color: #d80650;
+}
+
+.theme-dark .header-area-six .top-header-area .header-content-right .language-area .language-item-top .language-bar span {
+    color: #ffffff;
+}
+
+.theme-dark .features-area .single-features:hover h3 {
+    color: #d80650 !important;
+}
+
+.theme-dark .sidebar-modal .sidebar-modal-inner {
+    background-color: #0e0129;
+}
+
+.theme-dark .sidebar-modal .sidebar-header .sidebar-logo img {
+    filter: invert(1);
+}
+
+.theme-dark .ns-features-card .inner {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .ns-about-area {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .ns-about-image .fun-facts-wrap {
+    background-color: #000000;
+}
+
+.theme-dark .ns-fun-facts-area {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .ns-fun-facts-area::before {
+    background-color: #000000;
+}
+
+.theme-dark .ns-services-card {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .ns-testimonials-card {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .ns-testimonials-card .quote {
+    opacity: 0.1;
+}
+
+.theme-dark .ns-testimonials-card .info .title span {
+    color: #ffffff;
+}
+
+.theme-dark .ns-case-studies-area {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .cs-features-inner {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .cs-testimonials-card .info .title span {
+    color: #ffffff;
+}
+
+.theme-dark .cs-testimonials-slides .owl-nav .owl-prev i {
+    color: #ffffff;
+}
+
+.theme-dark .cs-testimonials-slides .owl-nav .owl-prev i:hover {
+    color: #d80650;
+}
+
+.theme-dark .cs-testimonials-slides .owl-nav .owl-next i {
+    color: #ffffff;
+}
+
+.theme-dark .cs-testimonials-slides .owl-nav .owl-next i:hover {
+    color: #d80650;
+}
+
+.theme-dark .case-studies-details-desc .choose-wrap {
+    background-color: #0e0e0e !important;
+}
+
+.theme-dark .case-studies-details-desc .choose-wrap p {
+    color: #ffffff;
+}
+
+.theme-dark .case-studies-details-desc .choose-wrap ul li {
+    color: #ffffff;
+}
+
+.theme-dark .product-details-area .products-details-tab .tab_content .tabs_item .products-details-tab-content .product-review-form .review-comments .review-item .review-report-link {
+    color: #ffffff;
+}
+
+.theme-dark .product-details-area .products-details-tab .tab_content .tabs_item .products-details-tab-content .product-review-form .review-comments .review-item .review-report-link:hover {
+    color: #d80650;
+}
+
+.theme-dark .gcd-services-item {
+    background-color: #000000;
+}
+
+.theme-dark .gcd-services-bottom {
+    background: #000000;
+}
+
+.theme-dark .gcd-support-content .faq-accordion .accordion .accordion-item {
+    background-color: transparent;
+}
+
+.theme-dark .gcd-choose-image .mask {
+    filter: invert(1);
+}
+
+.theme-dark .gcd-testimonial-card {
+    background-color: #0e0e0e;
+}
+
+.theme-dark .cta-courses-bottom {
+    background: #0e0e0e;
+}
+
+.theme-dark .cta-overview-area::before {
+    background-color: #000000;
+}
+
+.theme-dark .cta-overview-content .overview-count-items .count-item p {
+    color: #ffffff;
+}
+
+.theme-dark .cta-overview-image .list li img {
+    filter: invert(1);
+}
+
+.theme-dark .cta-work-inner .wrap-shape {
+    filter: invert(1);
+}
+
+.theme-dark .footer-style-wrap-area.little-top-wrap::before {
+    background-color: #000000;
+}
+
+.theme-dark .cta-courses-form .search label {
+    color: #ffffff;
+}
+
+.theme-dark .cta-courses-form .search .box .form-control {
+    color: #ffffff;
+}
+
+.theme-dark .cta-courses-form .search .box .form-control::-moz-placeholder {
+    color: #ffffff;
+}
+
+.theme-dark .cta-courses-form .search .box .form-control::placeholder {
+    color: #ffffff;
+}
+
+.theme-dark .cta-courses-form .filters .form-group label {
+    color: #ffffff;
+}
+
+.theme-dark .cta-courses-form .filters .form-group .form-control {
+    color: #ffffff;
+}
+
+.theme-dark .cta-courses-form .filters .nice-select .option {
+    color: #000000;
+}
+
+.theme-dark .cta-courses-form .filters .nice-select .option:hover {
+    background-color: #0e0129;
+    color: #ffffff;
+}
+
+.theme-dark .cta-courses-details-desc .courses-accordion .accordion .accordion-item {
+    background-color: #0e0e0e;
+    color: #ffffff;
+}
+
+.theme-dark .cta-courses-details-desc .courses-accordion .accordion .accordion-title .left span {
+    color: #ffffff;
+}
+
+.theme-dark .cta-courses-details-desc .courses-accordion .accordion .accordion-title .left .list li {
+    color: #ffffff;
+}
+
+.theme-dark .cta-courses-details-desc .courses-accordion .accordion .accordion-content {
+    background-color: #000000;
+}
+
+.theme-dark .cta-courses-details-desc .courses-accordion .accordion .accordion-content .info-list li {
+    border-bottom: 1px solid #0e0e0e;
+}
+
+.theme-dark .cta-courses-details-desc .courses-accordion .accordion .accordion-content .info-list li:last-child {
+    border-bottom: none;
+}
+
+.theme-dark .cta-courses-details-desc .courses-accordion .accordion .accordion-content .info-list li .left i {
+    color: #ffffff;
+}
+
+.theme-dark .cta-courses-details-desc .courses-accordion .accordion .accordion-content .info-list li .left span {
+    color: #ffffff;
+}
+
+.theme-dark .cta-courses-details-desc .courses-accordion .accordion .accordion-content .info-list li .right .lock {
+    color: #ffffff;
+}
+
+.theme-dark .cta-courses-details-desc .courses-accordion .accordion .accordion-content .info-list li .right span {
+    color: #ffffff;
+}
+
+.theme-dark .cta-courses-details-sidebar {
+    background-color: #000000;
+}
+
+.theme-dark .cta-courses-details-sidebar .information .list li {
+    border-bottom: 1px solid #0e0e0e;
+}
+
+.theme-dark .cta-courses-details-sidebar .information .list li:last-child {
+    border-bottom: none;
+}
+
+/*# sourceMappingURL=dark.css.map */
