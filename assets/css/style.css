@@ -10996,6 +10996,7 @@ Network Security Banner Area CSS
     background-repeat: no-repeat;
     padding-top: 310px;
     padding-bottom: 270px;
+    height: 700px;
 }
 
 .network-security-banner-area::before {
@@ -11011,12 +11012,13 @@ Network Security Banner Area CSS
 
 .network-security-banner-content {
     max-width: 690px;
+    margin-bottom: 400px;
 }
 
 .network-security-banner-content .sub {
     font-size: 17px;
     font-weight: 700;
-    color: #2D2046;
+    color: #E51D25;
     display: block;
     margin-bottom: 10px;
 }
@@ -17221,3 +17223,4 @@ Footer Style Wrap Area CSS
 ==============================================================*/
 
 /*# sourceMappingURL=style.css.map */
+

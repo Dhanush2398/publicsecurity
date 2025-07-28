@@ -795,6 +795,7 @@
 
 })(jQuery);
 
+
 // function to set a given theme/color-scheme
 function setTheme(themeName) {
     localStorage.setItem('seku_theme', themeName);
@@ -819,3 +820,4 @@ function setTheme(themeName) {
 //     }
 // })
 // ();
+
