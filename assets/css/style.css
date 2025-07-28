@@ -17224,3 +17224,8 @@ Footer Style Wrap Area CSS
 
 /*# sourceMappingURL=style.css.map */
 
+@media (min-width: 992px) {
+  .ns-about-area {
+    display: none !important;
+  }
+}
